@@ -1,0 +1,54 @@
+.main{
+    width: 50%;
+    margin: 0%auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card1>img{
+    width: 50%;
+    height: 45%;
+    border: 2px solid black;
+
+}
+.card2>img{
+    width: 50%;
+    height: 45%;
+    border: 2px solid black;
+
+}
+.card1,.card2>hr{
+    width: 10px solid black;
+}
+
+.card1{
+    width: 40%;
+    margin: 15px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    box-shadow: 6px 6px 6px -5px;
+    border: 4px solid black;
+}
+.card2{
+    width: 40%;
+    margin: 15px;
+    height: 400px;
+    
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    box-shadow: 6px 6px 6px -5px;
+    border: 4px solid black;
+}
+
+
+/* media for mobile view */
+@media (min-device-width:320px) and (max-device-width:480px){
+    .card1,
+    .card2{
+        width: 100%;
+        margin: 3% 0;
+    }
+}
